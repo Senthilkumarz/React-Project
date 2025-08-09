@@ -15,7 +15,7 @@ const Register = () => {
       const handleapi = async() => {
         try {
            const response = await axios.get('https://jsonplaceholder.typicode.com/posts');
-          
+           console.log('jhedfgjdsfhgdsh')
            setData(response.data)
         } catch (error) {
              console.log(error)
